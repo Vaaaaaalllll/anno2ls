@@ -48,11 +48,12 @@ anno.import_images("path/to/image/folder", project_id)
 # Import annotations in LabelMe format
 anno.import_preannotated("path/to/json/folder", project_id)
 
-# Delete all tasks in the project
-anno.delete_all_task(project_id)
-
 # Delete only empty (no annotation) tasks
 anno.delete_empty_task(project_id)
+
+###########Optional###########
+# Delete all tasks in the project
+anno.delete_all_task(project_id)
 
 # Get list of all task image filenames
 filenames = anno.get_all_filenames(project_id)
