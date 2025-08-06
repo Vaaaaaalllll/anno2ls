@@ -30,10 +30,8 @@ pip install anno2ls-0.1.0-py3-none-any.whl
 ---
 
 ## 🧠 Usage
-from anno2ls import anno2ls
-
-**To get the api_token, go to your Label Studio instance and navigate to Account. There, you'll find a Legacy Token or Token — that’s your api_token.**
-**For ls_url, it refers to the URL of the Label Studio instance you are using.**
+* **To get the api_token, go to your Label Studio instance and navigate to Account. There, you'll find a Legacy Token or Token — that’s your api_token.**
+* **For ls_url, it refers to the URL of the Label Studio instance you are using.**
 
 ```bash
 # Initialize
