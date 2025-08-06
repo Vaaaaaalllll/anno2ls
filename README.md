@@ -38,7 +38,7 @@ from anno2ls import anno2ls
 
 api_token = "your_label_studio_token"
 ls_url = "https://your.labelstudio.instance"
-project_id = 97
+project_id = 0
 
 anno = anno2ls(token=api_token, url=ls_url)
 
