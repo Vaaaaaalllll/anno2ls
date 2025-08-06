@@ -41,23 +41,23 @@ api_token = "your_label_studio_token"
 ls_url = "https://your.labelstudio.instance"
 project_id = 0
 
-anno = anno2ls(token=api_token, url=ls_url)
+client = anno2ls(token=api_token, url=ls_url)
 
 # Upload all images from a directory
-anno.import_images("path/to/image/folder", project_id)
+client.import_images("path/to/image/folder", project_id)
 
 # Import annotations in LabelMe format
-anno.import_preannotated("path/to/json/folder", project_id)
+client.import_preannotated("path/to/json/folder", project_id)
 
 # Delete only empty (no annotation) tasks
-anno.delete_empty_task(project_id)
+client.delete_empty_task(project_id)
 
 ###########Optional###########
 # Delete all tasks in the project
-anno.delete_all_task(project_id)
+client.delete_all_task(project_id)
 
 # Get list of all task image filenames
-filenames = anno.get_all_filenames(project_id)
+filenames = client.get_all_filenames(project_id)
 ```
 
 ---
