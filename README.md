@@ -24,7 +24,7 @@ Or use it locally:
 
 git clone https://github.com/Vaaaaaalllll/anno2ls
 cd anno2ls
-pip install .
+pip install anno2ls-0.1.0-py3-none-any.whl
 ```
 
 ---
